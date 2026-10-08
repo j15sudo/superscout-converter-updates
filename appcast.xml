@@ -1,9 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-  <channel>
-    <title>Superscout Converter Updates</title>
-    <link>https://github.com/j15sudo/superscout-converter-updates</link>
-    <description>Signed updates for Superscout Converter</description>
-    <language>en</language>
-  </channel>
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>SuperscoutConverter</title>
+        <item>
+            <title>2.20</title>
+            <pubDate>Thu, 08 Oct 2026 21:44:55 +0900</pubDate>
+            <link>https://github.com/j15sudo/superscout-converter-updates/releases/latest</link>
+            <sparkle:version>31</sparkle:version>
+            <sparkle:shortVersionString>2.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# SuperscoutConverter v2.20
+
+- メイン画面を整理し、XML選択・作成方法・詳細設定を見つけやすくしました。
+- 選択したXMLのファイル名と種類を一覧で確認できます。
+- Advanced SuperscoutとFinalWhistleが混在していても、ファイルごとに自動判定します。
+- 作成前に、XMLの種類・保存先・タイムライン名・新規作成／置き換えを確認できます。
+- Maulの結果ラベルを `Breakdown Outcome` から `Maul Outcome` に整理しました。
+- アプリ内からオンラインアップデートを確認できるようになりました。
+- 更新画面にリリースノートを表示します。
+
+Leadtimeの動作と保存済み設定は、これまでのバージョンから変更していません。
+]]></description>
+            <enclosure url="https://github.com/j15sudo/superscout-converter-updates/releases/download/v2.20/SuperscoutConverter-v2.20-Notarized.zip" length="44712859" type="application/octet-stream" sparkle:edSignature="eEQZ3tsexCB4e5Di+GUw8RXdy2QVHoVbVHUvMp7zUM+w2S24E8QSDceNjLhpI2lcc9F2iOkd8LTZulwDDD6GBQ=="/>
+        </item>
+    </channel>
 </rss>
